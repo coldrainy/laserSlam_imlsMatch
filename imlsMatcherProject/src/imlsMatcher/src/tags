@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ComputeNormal	imls_icp.cpp	/^Eigen::Vector2d IMLSICPMatcher::ComputeNormal(std::vector<Eigen::Vector2d> &nearPoints)$/;"	f	class:IMLSICPMatcher
+ConvertChampionLaserScanToEigenPointCloud	main.cpp	/^    void ConvertChampionLaserScanToEigenPointCloud(const champion_nav_msgs::ChampionNavLaserScanConstPtr& msg,$/;"	f	class:imlsDebug
+IMLSICPMatcher	imls_icp.cpp	/^IMLSICPMatcher::IMLSICPMatcher(double _r,double _h,int _iter)$/;"	f	class:IMLSICPMatcher
+IMLSICPMatcher	imls_icp.cpp	/^IMLSICPMatcher::IMLSICPMatcher(void )$/;"	f	class:IMLSICPMatcher
+ImplicitMLSFunction	imls_icp.cpp	/^bool IMLSICPMatcher::ImplicitMLSFunction(Eigen::Vector2d x,$/;"	f	class:IMLSICPMatcher
+Match	imls_icp.cpp	/^bool IMLSICPMatcher::Match(Eigen::Matrix3d& finalResult,$/;"	f	class:IMLSICPMatcher
+RemoveNANandINFData	imls_icp.cpp	/^void IMLSICPMatcher::RemoveNANandINFData(std::vector<Eigen::Vector2d> &_input)$/;"	f	class:IMLSICPMatcher
+SolveMotionEstimationProblem	imls_icp.cpp	/^bool IMLSICPMatcher::SolveMotionEstimationProblem(std::vector<Eigen::Vector2d> &source_cloud,$/;"	f	class:IMLSICPMatcher
+SolverFourthOrderPolynomial	imls_icp.cpp	/^bool IMLSICPMatcher::SolverFourthOrderPolynomial(Eigen::VectorXd&p_coffi,$/;"	f	class:IMLSICPMatcher
+championLaserScanCallback	main.cpp	/^    void championLaserScanCallback(const champion_nav_msgs::ChampionNavLaserScanConstPtr& msg)$/;"	f	class:imlsDebug
+getOdomPose	main.cpp	/^    bool getOdomPose(ros::Time t,$/;"	f	class:imlsDebug
+imlsDebug	main.cpp	/^    imlsDebug()$/;"	f	class:imlsDebug
+imlsDebug	main.cpp	/^class imlsDebug$/;"	c	file:
+m_FrameID	main.cpp	/^    int m_FrameID;$/;"	m	class:imlsDebug	file:
+m_imlsMatcher	main.cpp	/^    IMLSICPMatcher m_imlsMatcher;$/;"	m	class:imlsDebug	file:
+m_laserscanSub	main.cpp	/^    ros::Subscriber m_laserscanSub;$/;"	m	class:imlsDebug	file:
+m_nh	main.cpp	/^    ros::NodeHandle m_nh;$/;"	m	class:imlsDebug	file:
+m_normalsPub	main.cpp	/^    ros::Publisher m_normalsPub;$/;"	m	class:imlsDebug	file:
+m_pointcloudPub	main.cpp	/^    ros::Publisher m_pointcloudPub;$/;"	m	class:imlsDebug	file:
+m_prevLaserPose	main.cpp	/^    Eigen::Vector3d m_prevLaserPose;$/;"	m	class:imlsDebug	file:
+m_prevPointCloud	main.cpp	/^    std::vector<Eigen::Vector2d> m_prevPointCloud;$/;"	m	class:imlsDebug	file:
+m_tfListener	main.cpp	/^    tf::TransformListener m_tfListener;$/;"	m	class:imlsDebug	file:
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+projSourcePtToSurface	imls_icp.cpp	/^void IMLSICPMatcher::projSourcePtToSurface($/;"	f	class:IMLSICPMatcher
+setIterations	imls_icp.cpp	/^void IMLSICPMatcher::setIterations(int _iter)$/;"	f	class:IMLSICPMatcher
+setSourcePointCloud	imls_icp.cpp	/^void IMLSICPMatcher::setSourcePointCloud(pcl::PointCloud<pcl::PointXYZ> &pcl_cloud)$/;"	f	class:IMLSICPMatcher
+setSourcePointCloud	imls_icp.cpp	/^void IMLSICPMatcher::setSourcePointCloud(std::vector<Eigen::Vector2d> &_source_pcloud)$/;"	f	class:IMLSICPMatcher
+setSourcePointCloudNormals	imls_icp.cpp	/^void IMLSICPMatcher::setSourcePointCloudNormals(std::vector<Eigen::Vector2d> &_normals)$/;"	f	class:IMLSICPMatcher
+setTargetPointCloud	imls_icp.cpp	/^void IMLSICPMatcher::setTargetPointCloud(pcl::PointCloud<pcl::PointXYZ> &pcl_cloud)$/;"	f	class:IMLSICPMatcher
+setTargetPointCloud	imls_icp.cpp	/^void IMLSICPMatcher::setTargetPointCloud(std::vector<Eigen::Vector2d> &_target_pcloud)$/;"	f	class:IMLSICPMatcher
+~IMLSICPMatcher	imls_icp.cpp	/^IMLSICPMatcher::~IMLSICPMatcher(void )$/;"	f	class:IMLSICPMatcher
